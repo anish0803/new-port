@@ -232,6 +232,7 @@ clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 60% 20%,0% 100%);
     color: white;
     /* border: 5px solid red; */
     padding: 10px;
+    line-height: 40px;
 }
 .our-works>h2>span{
     color: rgb(220, 175, 85);
@@ -247,4 +248,124 @@ clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 60% 20%,0% 100%);
     padding: 10px;
     background-color: white;
     
+    }
+
+    /* ------our blog section--------- */
+
+.blog{
+    height: 300px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+   line-height: 40px;
+   background-image: url(https://media.istockphoto.com/photos/wall-black-background-for-design-stone-black-texture-background-picture-id1320815200?b=1&k=20&m=1320815200&s=170667a&w=0&h=9XJVaaiFReTCARupemxvqPOZt98ZbS6S9RJ5vd14-yE=);
+   clip-path:polygon(0% 0%, 100% 0%, 100% 60%, 60% 40%,0% 60%);
+}
+.blog-img-center{
+    border: 5px solid black;
+    text-align: center;
+   
+  }
+
+    .blog h2{
+        font-size: 30px;
+        color: aqua;
+        padding-top: 30px;
+    }
+    .blog>h2>span{
+        color: rgb(205, 23, 23);
+    }
+     .inside-img{
+      
+        text-align: justify;
+        padding: 30px;
+        margin: 10px;
+     }
+     
+    .blog_img{
+        /* border: 2px solid black; */
+       
+        text-align: center;
+        padding: 20px;
+        text-align: justify;
+      margin: 60px;
+    
+    } 
+.para1{
+    width: 350px;
+    text-align: justify;
+    color: white;
+    }
+
+
+    /* contact us start------------ */
+
+   
+    .cantact{
+        height: 300px;
+
+        padding-top: 30px;
+        background-image: url(https://media.istockphoto.com/photos/wall-black-background-for-design-stone-black-texture-background-picture-id1320815200?b=1&k=20&m=1320815200&s=170667a&w=0&h=9XJVaaiFReTCARupemxvqPOZt98ZbS6S9RJ5vd14-yE=);
+        clip-path:polygon(0% 0%, 100% 0%, 100% 60%, 60% 40%,0% 60%);
+    }
+    .cantact>div>p,.cantact>div>h2{
+        text-align:center ;
+       
+        margin: 10px 0;
+    }
+    .cantact>div>h2>span{
+        color: aqua;
+    }
+    .cantact>div>h2{
+        color: rgb(203, 23, 26);
+    }
+    
+    .contact_us{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .contact_us>div{
+        width: 20%;
+       
+        text-align: center;
+        padding: 20px 20px;
+    }
+    .fa-solid{
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+    .contact_us>div>h3{
+        margin-bottom: 20px;
+    }
+    .form{
+       
+        margin-left: 33%;
+        width: 30%;
+        padding: 20px 20px;
+    }
+    .form>input{
+        height: 30px;
+        width: 400px;
+        padding-left: 10px;
+        margin: 10px 0;
+        border: none;
+       
+    }
+    .form>textarea{
+        padding-left: 10px;
+        margin: 10px 0;
+        border: none;
+       
+    }
+    .form>button{
+        margin: 10px 90px;
+        border: none;
+        padding: 5px 20px;
+        background-color: aqua;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .form>button:hover{
+        background-color: chartreuse;
     }

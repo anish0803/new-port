@@ -19,13 +19,13 @@
       </div>
       <nav class="menu flex">
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Work</a>
-        <a href="#">Blog</a>
+        <a href="#about-us">About</a>
+        <a href="#services">Services</a>
+        <a href="#section3">Work</a>
+        <a href="#section4">Blog</a>
       </nav>
       <div class="btn flex">
-        <button>Contact</button>
+        <a href="#section5"><button>Contact</button></a>
       </div>
     </div>
   </header>
@@ -64,7 +64,7 @@
 
         <img src="./images/man.png">
       </section>
-      <section class="about-us">
+      <section class="about-us" id="about-us">
 
         <h2><span>About</span> Me</h2>
 
@@ -167,7 +167,7 @@
 
     <!-- -----------our works start--------- -->
 
-    <section>
+    <section class="section3" id="section3">
       <div class="our-works">
         <h2><span>Our</span> Works</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, explicabo!</p>
@@ -185,20 +185,75 @@
 
     <!-- --------our blogs start------- -->
 
-    <section>
-      <div class="Our_Blog">
+    <section class="section4" id="section4">
+      <div class="blog">
         <h2><span>Our</span> Blogs</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, explicabo!</p>
       </div>
-      <div class="blog_img">
-        <img src="./images/ph-3.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore, placeat illo ratione dolores
-          tempora explicabo maiores! Vitae cupiditate quae neque nam? At voluptas sapiente sequi unde porro, numquam
-          placeat modi exercitationem nulla nobis consectetur repellat? Ab inventore corporis nobis praesentium
-          voluptate provident commodi nesciunt, incidunt, magni tenetur, repudiandae esse.</p>
+      <div class="blog_img flex">
+        <div class="inside-img">
+          <img src="./images/blog.png" alt="image">
+          <p class="para1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aspernatur officia inventore quos. Dolor
+            quis magni aliquid explicabo temporibus quisquam?
+          </p>
+        </div>
+        <div class="inside-img">
+          <img src="./images/blog.png" alt="image">
+          <p class="para1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aspernatur officia inventore quos. Dolor
+            quis magni aliquid explicabo temporibus quisquam?
+          </p>
+        </div>
+        <div class="inside-img">
+          <img src="./images/blog.png" alt="image">
+          <p class="para1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aspernatur officia inventore quos. Dolor
+            quis magni aliquid explicabo temporibus quisquam?
+          </p>
+        </div>
       </div>
     </section>
-    </div>
-    </main>
-     </body>
-    </html>
+
+    <!-- -------contact us----- -->
+
+    <section class="section5" id="section5">
+      <div class="cantact">
+          <div>
+              <h2>Contact <span> Us</span></h2>
+              <p style="color:white ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum libero blanditiis minima
+                  alias.
+                  Tenetur, sint.</p>
+          </div>
+          <div class="contact_us">
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                  <h3>Call Us ON</h3>
+                  <p>+91 7870800803</p>
+              </div>
+              <div>
+                  <i class="fa-solid fa-at"></i>
+                  <h3>Email Us At</h3>
+                  <P>singhanish124@gmail.com</P>
+              </div>
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                  <h3>Visit Office</h3>
+                  <p>Nehru Chowk Harina, Dhanbad, 828306, Jharkhand India </p>
+              </div>
+          </div>
+      </div>
+      <form class="form">
+
+          <input type="text" placeholder="Your Name"><br>
+          <input type="email" name="" id="" placeholder="Your Email"><br>
+          <input type="text" placeholder="Your Subject"><br>
+          <textarea name="" id="" cols="40" rows="5" placeholder="Your Message"></textarea>
+          <button>SEND MESSAGE</button>
+      </form>
+  </section>
+
+  </main>
+</body>
+
+</html>
